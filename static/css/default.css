@@ -527,7 +527,7 @@ h6 { font-size: 16px;}
 }
 
 section.footer {
-	background-color: #21d4fd;
+
 
 	position: relative;
 	font-family: "Poppins";
@@ -537,7 +537,7 @@ section.footer {
 	padding: 25px;
 	text-align: center;
 	color: #fff;
-	background-color: #21d4fd;
+
 }
 .footer__content img {
 	width: 5%;
@@ -549,7 +549,7 @@ section.footer {
 	position: relative;
 }
 .footer__heading h2 {
-	background-color: #21d4fd;
+
 	display: inline-block;
 	padding: 0px 10px;
 	/* border: 1px solid; */
@@ -566,7 +566,7 @@ section.footer {
 	border-radius: 50px;
 	width: 20%;
 	transform: translate(-50%, -50%);
-	background-color: rgb(255, 255, 255);
+
 }
 .footer__content p {
 	font-size: 12px;
