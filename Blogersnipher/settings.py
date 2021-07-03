@@ -27,6 +27,9 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 
+    'cloudinary_storage',
+    'cloudinary',
+
     'Blogger.apps.BloggerConfig',
     'crispy_forms',
     'django_filters',
@@ -148,6 +151,14 @@ CKEDITOR_CONFIGS = {
         'width': '100%',
     },
 }
+
+CLOUDINARY_STORAGE = {
+    'CLOUD_NAME': 'snipher',
+    'API_KEY': '421162441822348',
+    'API_SECRET': 'gpP7UebOBTHV99kXyBfPDtW2fmk'
+}
+
+DEFAULT_FILE_STORAGE = 'cloudinary_storage.storage.MediaCloudinaryStorage'
 
 AWS_QUERYSTRING_AUTH = False
 
