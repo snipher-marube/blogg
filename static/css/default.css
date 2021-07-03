@@ -573,22 +573,22 @@ section.footer {
 	font-weight: 100;
 	padding: 10px 0px;
 }
-ul.social__media {
+.social__media {
 	margin: 0;
-	padding: 0;
+	padding: 10px;
 	display: inline-block;
 	margin-top: 15px;
 }
-ul.social__media li {
+.social__media  {
 	list-style-type: none;
 	display: inline-block;
 	margin-right: 15px;
 }
-ul.social__media li a {
+.social__media  a {
 	color: #fff;
 	font-size: 20px;
 }
-ul.social__media li {
+.social__media  {
 	text-align: center;
 	height: 45px;
 	width: 45px;
@@ -601,12 +601,12 @@ ul.social__media li {
 	0 0px 20px 0px rgba(0, 0, 0, 0.55);
 }
 
-ul.bus__list {
+.bus__list {
 	padding: 0;
 	margin: 0;
 }
 
-ul.bus__list li {
+.bus__list li {
 	list-style-type: none;
 	margin-bottom: 5px;
 }
