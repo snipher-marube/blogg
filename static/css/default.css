@@ -606,7 +606,7 @@ section.footer {
 	margin: 0;
 }
 
-.bus__list li {
+.bus__list  {
 	list-style-type: none;
 	margin-bottom: 5px;
 }
