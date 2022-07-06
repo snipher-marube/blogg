@@ -27,6 +27,6 @@ post_save.connect(update_profile, sender=User)
 
 def update_username(sender, instance, **kwargs):
 	instance.username = instance.email
-	print("Username updated!", instance.username)
+	print("Username updated successfully!", instance.username)
 
 pre_save.connect(update_username, sender=User)
